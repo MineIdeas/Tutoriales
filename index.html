@@ -40,29 +40,31 @@
 										
 										<br />
 	<hr />			
-< div  id = "graphcomment" > </ div > 
-< script  type = "text / javascript" >
 
-  / * - - - VARIABLES DE CONFIGURACIÓN - - - * /
+				<div id="graphcomment"></div>
+<script type="text/javascript">
 
-  // Asegúrese de que el ID es suya 
-  ventana .gc_params = {
-     graphcomment_id : 'Mine-Ideas' ,
+  /* - - - CONFIGURATION VARIABLES - - - */
 
-    // si su sitio web tiene un encabezado fijo, indique su altura en píxeles 
-    fixed_header_height: 0 ,
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'Mine-Ideas',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
   };
 
-  / * - - - NO EDITE POR DEBAJO DE ESTA LÍNEA - - - * /
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
 
   
-  ( función () {
-     var gc = document .createElement ( 'script' ); gc.type = 'texto / javascript' ; gc.async = verdadero ;
-    gc.src = 'https://graphcomment.com/js/integration.js?' + Math .round ( Math .random () * 1e8 );
-    ( document .getElementsByTagName ( 'head' ) [ 0 ] || document .getElementsByTagName ( 'body' ) [ 0 ]). appendChild (gc);
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
   })();
 
-</ script >
+</script>
+				
 	<hr />		
 				<br />
 				
